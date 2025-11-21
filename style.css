@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "times new roman";
+	margin:0;
+	padding: 0px;
+	background: darkgray;
+	line-height: 1.5;
+
+}
+
+.TYPE{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin: 0 auto;
+	width: 65%;
+}
+	.pic{
+ 	width: 250px;
+ 	height: 250px;
+ 	border-radius: 50%;
+ 	object-fit: cover;
+
+	}
+	.MEED{
+		max-width: 600px;
+		width: fit-content;
+		padding: 10px;
+}
+	.MEED h2{
+  		padding: 5px 0;
+  		margin-bottom: 0;
+  		text-decoration: underline;
+  		font-style: italic;	
+}
+
+.MEED h3{
+	padding: 0;
+	margin-top: 0;
+}
+
+	.main-header{
+		text-align: center;
+		text-decoration: underline;
+	}
+
+	.container{
+		padding: 10px;
+		background: black;
+		color: whitesmoke;
+		width: fit-content;
+		margin-top: 50px;
+	}
+	.container ul{
+		margin-left: 0;
+		list-style: none;
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.MEED ul{
+		list-style: none;
+	}
+
+.quote{
+	margin-top: 100px;
+	text-align: center;
+	font-style: italic;
+}
